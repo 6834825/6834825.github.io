@@ -39,12 +39,14 @@ body{
 		color:#0071bc;
 	}
 	#navigation{
-		width:850px;
+		width:830px;
 		height:40px;
-		margin:0;
-		padding:20px 0;
+		margin:10px 0;
+		padding:10px 0 10px 20px;
 		position:relative;
 		float:right;
+		
+		box-shadow:-1px 0px 0px 0px #afafaf inset;
 	}
 	#navigation ul{
 		height:40px;
@@ -136,7 +138,7 @@ body{
 		position:relative;
 		
 		line-height:40px;
-		font-size:16px;
+		font-size:14px;
 		text-align:center;
-		color:#222;
+		color:#9f9f9f;
 	}
