@@ -80,6 +80,20 @@ body{
 	#navigation ul li a:active{
 		text-decoration:underline;
 	}
+	#navigation #social{
+		height:40px;
+		margin:0;
+		padding:0;
+		position:relative;
+		float:right;
+	}
+	#navigation #social a{
+		width:30px;
+		height:30px;
+		margin:0;
+		padding:5px 0 5px 5px;
+		float:right;
+	}
 
 #content-container{
 	width:100%;
