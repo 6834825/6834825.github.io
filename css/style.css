@@ -9,6 +9,17 @@ body{
 	color:#222;
 	font-family:Verdana, Geneva, sans-serif;
 }
+a, a:link, a:visited{
+	color:#424242;
+	text-decoration:underline;
+}
+a:hover, a:visited{
+	color:#222;
+	text-decoration:none;
+}
+.italics{
+	font-style:italic;
+}
 
 #header-container{
 	width:100%;
@@ -116,6 +127,43 @@ body{
 	padding:0;
 	position:relative;
 }
+.post{
+	width:1070px;
+	margin:20px 0;
+	padding:10px 15px;
+	position:relative;
+	box-shadow:0px 0px 0px 1px #dfdfdf inset;
+	border-radius:10px;
+}
+	.post .title{
+		width:100%;
+		height:35px;
+		margin:0;
+		padding:0;
+		
+		line-height:35px;
+		font-size:22px;
+		font-weight:600;
+	}
+	.post .post-info{
+		width:100%;
+		height:20px;
+		margin:0;
+		padding:0;
+		
+		line-height:20px;
+		font-size:14px;
+		font-style:italic;
+		color:#8f8f8f;
+	}
+	.post .payload{
+		width:100%;
+		margin:0;
+		padding:15px 0 10px 0;
+		
+		line-height:21px;
+		font-size:17px;
+	}
 
 #footer-container{
 	width:100%;
