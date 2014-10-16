@@ -90,8 +90,8 @@ body{
 	#navigation #social a{
 		width:30px;
 		height:30px;
-		margin:0;
-		padding:5px 0 5px 5px;
+		margin:5px 0 5px 10px;
+		padding:0;
 		float:right;
 		
 		line-height:30px;
