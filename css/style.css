@@ -37,7 +37,7 @@ a:hover, a:visited{
 	position:relative;
 }
 	#logo{
-		width:250px;
+		width:210px;
 		height:80px;
 		margin:0;
 		padding:0;
@@ -50,8 +50,15 @@ a:hover, a:visited{
 		font-family:Verdana, Geneva, sans-serif;
 		color:#0071bc;
 	}
+		#logo img.logo{
+			width:165px;
+			height:60px;
+			margin:0;
+			padding:10px 0;
+			border:none;
+		}
 	#navigation{
-		width:730px;
+		width:770px;
 		height:40px;
 		margin:10px 0;
 		padding:10px 0 10px 20px;
@@ -93,6 +100,7 @@ a:hover, a:visited{
 	#navigation ul li a:hover,
 	#navigation ul li a:active{
 		text-decoration:underline;
+		color:#0071bc;
 	}
 	#navigation #social{
 		height:40px;
@@ -101,7 +109,9 @@ a:hover, a:visited{
 		position:relative;
 		float:right;
 	}
-	#navigation #social a{
+	#navigation #social a,
+	#navigation #social a:link,
+	#navigation #social a:visited{
 		width:30px;
 		height:30px;
 		margin:5px 0 5px 10px;
@@ -113,6 +123,10 @@ a:hover, a:visited{
 		text-align:center;
 		color:#8f8f8f;
 		text-decoration:none;
+	}
+	#navigation #social a:hover,
+	#navigation #social a:active{
+		color:#0071bc;
 	}
 
 #content-container{
