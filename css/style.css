@@ -46,7 +46,7 @@ body{
 		position:relative;
 		float:right;
 		
-		box-shadow:-1px 0px 0px 0px #afafaf inset;
+		box-shadow:2px 0px 0px 0px #afafaf inset;
 	}
 	#navigation ul{
 		height:40px;
