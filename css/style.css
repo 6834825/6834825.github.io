@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background:#efefef;
+	background:#424242;
 	margin:0;
 	padding:0;
 	
@@ -22,6 +22,7 @@ a:hover, a:visited{
 }
 
 #header-container{
+	background:#efefef;
 	width:100%;
 	margin:0;
 	padding:0 0 2px 0;
@@ -29,7 +30,7 @@ a:hover, a:visited{
 	box-shadow:0px -2px 0px 0px #0071BC inset;
 }
 .header-main-col{
-	width:1100px;
+	width:1000px;
 	height:80px;
 	margin:0 auto;
 	padding:0;
@@ -50,7 +51,7 @@ a:hover, a:visited{
 		color:#0071bc;
 	}
 	#navigation{
-		width:830px;
+		width:730px;
 		height:40px;
 		margin:10px 0;
 		padding:10px 0 10px 20px;
@@ -115,21 +116,22 @@ a:hover, a:visited{
 	}
 
 #content-container{
+	background:#efefef;
 	width:100%;
 	margin:0;
-	padding:0;
+	padding:20px 0;
 	position:relative;
 }
 .content-main-col{
-	width:1100px;
+	width:1000px;
 	min-height:600px;
 	margin:0 auto;
 	padding:0;
 	position:relative;
 }
 .post{
-	width:1070px;
-	margin:20px 0;
+	width:970px;
+	margin:10px 0;
 	padding:10px 15px;
 	position:relative;
 	box-shadow:0px 0px 0px 1px #dfdfdf inset;
@@ -166,27 +168,68 @@ a:hover, a:visited{
 	}
 
 #footer-container{
+	background:#dedede;
 	width:100%;
 	margin:0;
 	padding:2px 0 0 0;
 	position:relative;
 	box-shadow:0px 2px 0px 0px #0071BC inset;
 }
-.footer-main-col{
-	width:1100px;
-	height:60px;
+.footer-content-main-col{
+	width:1000px;
+	height:150px;
+	margin:0 auto;
+	padding:0;
+}
+	.footer-column{
+		width:230px;
+		margin:0;
+		padding:10px 20px;
+		position:relative;
+		float:left;
+		box-shadow:0px 0px 0px 1px #dfdfdf inset;
+	}
+	.footer-column ul{
+		width:230px;
+		margin:0;
+		padding:0;
+		list-style-type:none;
+	}
+	.footer-column ul li{
+		margin:0 0 4px 0;
+		padding:0;
+	}
+	.footer-column ul li a,
+	.footer-column ul li a:link,
+	.footer-column ul li a:visited{
+		margin:0;
+		padding:0;
+		
+		line-height:30px;
+		font-size:16px;
+		text-decoration:none;
+	}
+	.footer-column ul li a:hover,
+	.footer-column ul li a:active{
+		text-decoration:underline;
+	}
+.footer-copyright-main-col{
+	width:100%;
+	height:40px;
 	margin:0 auto;
 	padding:0;
 }
 	.copyright{
-		width:1100px;
-		height:40px;
+		background:#424242;
+		width:100%;
+		height:20px;
 		margin:0;
 		padding:10px 0;
 		position:relative;
+		box-shadow:0px 2px 0px 0px #0071BC inset;
 		
-		line-height:40px;
+		line-height:20px;
 		font-size:14px;
 		text-align:center;
-		color:#9f9f9f;
+		color:#8f8f8f;
 	}
