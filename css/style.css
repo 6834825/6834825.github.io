@@ -7,6 +7,7 @@ body{
 	padding:0;
 	
 	color:#222;
+	font-family:Verdana, Geneva, sans-serif;
 }
 
 #header-container{
@@ -36,6 +37,48 @@ body{
 		text-align:left;
 		font-family:Verdana, Geneva, sans-serif;
 		color:#0071bc;
+	}
+	#navigation{
+		width:850px;
+		height:40px;
+		margin:0;
+		padding:20px 0;
+		position:relative;
+		float:right;
+	}
+	#navigation ul{
+		height:40px;
+		margin:0;
+		padding:0;
+		position:relative;
+		float:left;
+		
+		list-style-type:none;
+	}
+	#navigation ul li{
+		margin:0;
+		padding:0;
+		position:relative;
+		float:left;
+	}
+	#navigation ul li a,
+	#navigation ul li a:link,
+	#navigation ul li a:visited{
+		height:30px;
+		margin:0;
+		padding:5px 20px;
+		position:relative;
+		float:left;
+		display:block;
+		
+		line-height:30px;
+		font-size:22px;
+		color:#8f8f8f;
+		text-decoration:none;
+	}
+	#navigation ul li a:hover,
+	#navigation ul li a:active{
+		text-decoration:underline;
 	}
 
 #content-container{
