@@ -41,14 +41,13 @@ body{
 #footer-container{
 	width:100%;
 	margin:0;
-	padding:0;
+	padding:2px 0 0 0;
 	position:relative;
+	box-shadow:0px 2px 0px 0px #0071BC inset;
 }
 .footer-main-col{
 	width:1100px;
 	height:60px;
 	margin:0 auto;
-	padding:2px 0 0 0;
-	position:relative;
-	box-shadow:0px 2px 0px 0px #0071BC inset;
+	padding:0;
 }
